@@ -324,13 +324,23 @@
                 
               
 
-              <time title="Created: 2019-07-21 23:00:00 / Modified: 23:48:28" itemprop="dateCreated datePublished" datetime="2019-07-21T23:00:00+08:00">2019-07-21</time>
+              <time title="Created: 2019-07-21 23:00:00" itemprop="dateCreated datePublished" datetime="2019-07-21T23:00:00+08:00">2019-07-21</time>
             </span>
           
 
           
             
 
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2019-07-24 20:34:22" itemprop="dateModified" datetime="2019-07-24T20:34:22+08:00">2019-07-24</time>
+              </span>
             
           
 
@@ -370,10 +380,24 @@
       
         
           
-            <hr>
-<p>#Android RecyclerView 的使用场景</p>
-<hr>
-<h2 id="Android-RecyclerView-的基本使用结构"><a href="#Android-RecyclerView-的基本使用结构" class="headerlink" title="#Android RecyclerView 的基本使用结构"></a>#Android RecyclerView 的基本使用结构</h2>
+            <h1 id="Android-RecyclerView学习总结-1"><a href="#Android-RecyclerView学习总结-1" class="headerlink" title="Android RecyclerView学习总结(1)"></a>Android RecyclerView学习总结(1)</h1><ul>
+<li>适合初学</li>
+<li>全面去坑</li>
+</ul>
+<h2 id="RecyclerView的基本使用"><a href="#RecyclerView的基本使用" class="headerlink" title="RecyclerView的基本使用"></a>RecyclerView的基本使用</h2><h3 id="添加包依赖关系"><a href="#添加包依赖关系" class="headerlink" title="添加包依赖关系"></a>添加包依赖关系</h3><hr>
+<p>作为Android 5.0 之后出现的控件，google对于RecyclerView的官方定义如下：</p>
+<blockquote>
+<p>A flexible view for providing a limited window into a large data set.</p>
+</blockquote>
+<p>RecyclerView是support-v7包中的新组件, 在AndroidX中，原始API支持库被迁移到androidx命名空间，所以可以通过</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">implementation <span class="string">'androidx.recyclerview:recyclerview:1.0.0'</span></span><br></pre></td></tr></table></figure>
+
+<p>在app下面的build.gradle文件中的dependencies下添加依赖</p>
+<p><img src="/images/yilai.jpg" alt="添加依赖"></p>
+<p>这样就可以在工程里使用RecyclerView了。</p>
+<h3 id="定义RecyclerView中Item内容"><a href="#定义RecyclerView中Item内容" class="headerlink" title="定义RecyclerView中Item内容"></a>定义RecyclerView中Item内容</h3><hr>
+<h2 id="RecyclerView的多种类Item实现"><a href="#RecyclerView的多种类Item实现" class="headerlink" title="RecyclerView的多种类Item实现"></a>RecyclerView的多种类Item实现</h2><h2 id="RecyclerView的Item多种类布局实现"><a href="#RecyclerView的Item多种类布局实现" class="headerlink" title="RecyclerView的Item多种类布局实现"></a>RecyclerView的Item多种类布局实现</h2><hr>
+
           
         
       
